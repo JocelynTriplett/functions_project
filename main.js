@@ -105,7 +105,11 @@ console.log(greaterThan(2,4))
 // is the parameter that was passed in.
 // Then, write and example of using the function.
 
+function greet(name){
+  return 'Hello, ' + name +'!';
+}
 
+console.log(greet('Amy'))
 
 // 9.
 // Write a function called `madlib` that takes 4 or more parameters (words).
