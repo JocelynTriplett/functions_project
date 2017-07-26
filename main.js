@@ -37,9 +37,22 @@ console.log(maxOfThree(3,5,1))
 // Then, write and example of using the function.
 
 function isVowel(char){
-    // Your answer here
+    if (char === 'a'||
+        char === 'e'||
+        char === 'i'||
+        char === 'o'||
+        char === 'u') {
+          return true;
+        }
+    else if (char === 'y') {
+      return "sometimes!"
+    }
+    else {
+      return false;
+    }
 }
 
+console.log(isVowel('c'))
 
 // 4.
 // Write a function called `sum` that takes two parameters and returns the sum of those 2 numbers.
