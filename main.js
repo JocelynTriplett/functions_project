@@ -119,3 +119,9 @@ console.log(greet('Amy'))
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
+
+function madlib(word1,word2,word3,word4) {
+  return 'It is a ' + word1 + ' universally acknowledged, that a single ' + word2 + ' in possession of a good ' + word3 + ', must be in want of a ' + word4 + '.'
+}
+
+console.log(madlib('truth','man','fortune','wife'))
