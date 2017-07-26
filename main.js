@@ -18,10 +18,19 @@ console.log(max(5,7))
 // Define a function maxOfThree() that takes three numbers as arguments and returns the largest of them.
 // Then, write and example of using the function.
 
-function maxOfThree(){
-    // Your answer here
+function maxOfThree(num1,num2,num3){
+  if (num1 > num2 & num1 > num3) {
+      return num1;
+    }
+  else  if (num1 > num2 & num1 < num3){
+      return num3;
+    }
+  else {
+    return num2;
+  }
 }
 
+console.log(maxOfThree(3,5,1))
 
 // 3.
 // Write a function that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise.
