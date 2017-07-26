@@ -68,8 +68,11 @@ console.log(sum(3,7))
 // Write a function named `avg` that takes 3 parameters and returns the average of those 3 numbers.
 // Then, write and example of using the function.
 
+function avg(num1,num2,num3) {
+  return ( (num1+num2+num3) / 3);
+}
 
-
+console.log(avg(3,4,5))
 // 6.
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // Then, write and example of using the function.
